@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+.header{
+    //height: 100vh;
+    background-color: $primary-backgroundColor;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5%;
+    
+
+    &_h3{
+        margin-top: 1%;
+        
+        
+    }
+
+    h3{
+      font-size: 1.4rem;
+    }
+    
+    
+
+    &_image{
+        border: 1rem solid #E3AE9F;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-top: 8%;
+    }
+    
+}
+
+// .page{
+//     min-width: 980px;
+// }
+
+@media screen and (max-width: 900px) {
+
+}

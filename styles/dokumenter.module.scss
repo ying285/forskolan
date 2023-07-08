@@ -1,0 +1,210 @@
+@import './variables.scss';
+
+
+
+.dokumenter{
+    background-color: $second-color-2;
+    min-height: 300vh;
+    min-width: 980px;
+    
+
+    &_header{
+
+        display: flex;
+        justify-content: center;
+        padding-top: 4%;
+        padding-left: 75%;
+        color: $second-color-3;
+        background-color: $primary-backgroundColor;
+
+        p:hover{
+             transform: scale(1.05);
+             color: rgb(1, 1, 1);
+        cursor: pointer;
+        }
+         
+    }
+
+  
+
+    &_file{
+        padding: 10%;
+    }
+}
+
+.loggain{
+    background-color: $primary-backgroundColor;
+    min-height: 300vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    min-width: 980px;
+    position: relative;
+
+     &_tillbaka{
+         position:absolute;
+        top: 3rem;
+        left: 5%;
+        color: $second-color-3;
+     }
+
+     &_tillbaka:hover{
+         
+         transform: scale(1.05);
+         
+     }
+
+    &_link{
+
+    text-decoration: none;
+    color: $second-color-3;
+    } 
+
+    &_link:hover{
+        color: rgb(1, 1, 1);
+        cursor: pointer;
+    }
+
+    &_form{
+      h4{
+        text-align: center;
+        margin-bottom: 3rem;
+        color: $second-color-3;
+      }
+
+      
+      
+    }
+
+
+    &_btn{
+        
+    color: $second-color-3;
+    background-color: $second-color-1;
+    border: 0;
+    padding: 0.5rem 11.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    transition: all 0.3s;
+
+    
+    };
+
+    &_btn:hover {
+        background-color: darken($second-color-1, 20%);
+        color: rgb(1, 1, 1);
+        transform: scale(1.05);
+      }
+      
+    &_btn:active {
+        transform: translateY(3px);
+      }
+
+    &_input{
+
+        margin-bottom: 2rem;
+        label{
+            color: $second-color-3
+         }
+        
+            
+        
+        input {
+          margin-bottom: 0.9rem;
+          border: none;
+          border-bottom: 1px solid;
+          margin-top: 0.3rem;
+          padding: 0.5rem 15rem 0.5rem 0;
+          outline: none;
+          background-color: $primary-backgroundColor;
+        }
+      
+        input:-webkit-autofill {
+          transition: background-color 5000s ease-in-out 0s;
+        }
+      
+        label {
+          display: block;
+        }
+
+    }
+}
+
+.laddaup{
+  background-color: $second-color-2;
+  min-height: 300vh;
+  min-width: 980px;
+
+ label{
+  display: block;
+  color: $second-color-3
+ }
+ &_formItem1{
+  padding-left: 2%;
+ input{
+          margin-bottom: 0.9rem;
+          border: none;
+          border-bottom: 1px solid;
+          margin-top: 0.3rem;
+          padding: 0.5rem 12.5rem 0.5rem 0;
+          outline: none;
+          background-color: $second-color-2;
+         
+}
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s;  
+ }
+
+}
+
+&_formItem2{
+  padding-left: 2%;
+  input{
+    margin-bottom: 0.9rem;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 0.3rem;
+    padding: 0.5rem 5rem 0.5rem 0;
+    outline: none;
+    background-color: $second-color-2;
+   
+}
+input:-webkit-autofill {
+transition: background-color 5000s ease-in-out 0s;  
+}
+
+}
+ &_form{
+  padding: 10% 0 0 30%;
+ }
+
+}
+
+.pdffiles{
+  padding-bottom: 5%;
+  
+  &_header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+
+    button{
+      background-color: $btn-color;
+      color: $box-color;
+      padding: 0 1.5rem;
+      border-radius: 10px;
+      border: 0;
+      font-size: .8rem;
+    }
+
+    button:hover{
+      transform: scale(1.05);
+    }
+
+    p{
+      font-size: 1.1rem;
+      color:$second-color-3
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import'./variables.scss';
+
+.matsedeln{
+    background: $primary-backgroundColor;
+    min-height: 300vh;
+    
+    min-width: 980px;
+
+    h4{
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    &_item{
+        
+        
+        margin-top: 1%;
+    }
+
+   
+}
+
+
