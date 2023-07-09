@@ -6,6 +6,20 @@
     display: flex;
     justify-content:space-evenly;
     padding: 5%;
+
+
+    &_logout{
+        
+            p{
+              color: $second-color-3;  
+            }
+            p:hover{
+              transform: scale(1.05);
+              color: rgb(1, 1, 1);
+              
+              cursor: pointer;
+          }
+    }
     
 
     &_h3{

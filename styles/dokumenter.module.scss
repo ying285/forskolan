@@ -6,7 +6,13 @@
     background-color: $second-color-2;
     min-height: 300vh;
     min-width: 980px;
+
+   
     
+    
+    &_text{
+      text-align: center;
+    }
 
     &_header{
 
@@ -52,6 +58,13 @@
          
          transform: scale(1.05);
          
+     }
+
+     &_forsatta{
+      position:absolute;
+      top: 3.15rem;
+      left: 70%;
+      color: $second-color-3;
      }
 
     &_link{
@@ -133,7 +146,7 @@
 
 .laddaup{
   background-color: $second-color-2;
-  min-height: 300vh;
+  min-height: 100vh;
   min-width: 980px;
 
  label{
@@ -190,12 +203,13 @@ transition: background-color 5000s ease-in-out 0s;
     padding-bottom: 2%;
 
     button{
-      background-color: $btn-color;
-      color: $box-color;
-      padding: 0 1.5rem;
-      border-radius: 10px;
-      border: 0;
-      font-size: .8rem;
+       background-color: $btn-color;
+       color: $box-color;
+       padding: 0 1.2rem;
+       border-radius: 10px;
+       border: 0;
+       font-size: .8rem;
+       margin-right: .7rem;
     }
 
     button:hover{
@@ -208,3 +222,5 @@ transition: background-color 5000s ease-in-out 0s;
     }
   }
 }
+
+

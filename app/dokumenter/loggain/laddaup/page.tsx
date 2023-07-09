@@ -1,10 +1,11 @@
 'use client'
 
 import React,{useState} from 'react'
-import Tillbaka from '@/app/utils/Tillbaka'
 import styles from '../../../../styles/dokumenter.module.scss';
 import Button from '../../../utils/Button';
 import LogOut from '@/app/utils/LogOut';
+import Tilldokument from '@/app/utils/Tilldokument';
+
 
 
 const Laddaup = () => {
@@ -65,7 +66,7 @@ const Laddaup = () => {
   return (
     <div className={styles.laddaup}>
       <div className={styles.dokumenter_header}>
-        <Tillbaka />
+        <Tilldokument />
          <LogOut />
       </div>
         <form className={styles.laddaup_form} onSubmit={handleSubmit}>

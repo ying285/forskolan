@@ -2,7 +2,7 @@ import React from 'react'
 import {signOut} from 'next-auth/react'
 import {useSession} from 'next-auth/react'
 import { useRouter } from 'next/navigation'
-import styles from '../../styles/dokumenter.module.scss';
+
 
 const LogOut = () => {
 const router = useRouter()
