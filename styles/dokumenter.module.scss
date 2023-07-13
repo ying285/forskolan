@@ -3,28 +3,28 @@
 
 
 .dokumenter{
-    background-color: $second-color-2;
+    background-color:$primary-backgroundColor;
     height: 100%;
-    
-  
-  
     min-width: 980px;
+    position: relative;
+    // &_headerRight{
+    //   display: flex;
+    //   align-items: center;
+    // }
 
-   
-    
-    
     &_text{
       text-align: center;
     }
 
     &_header{
-
-        display: flex;
-        justify-content: center;
-        padding-top: 4%;
-        padding-left: 75%;
+         width: 100%;
+        //display: flex;
+        //justify-content: center;
+        //align-items: center;
+        padding-top: 4.5rem;
+        padding-left: 75rem;
         color: $second-color-3;
-        background-color: $primary-backgroundColor;
+        background-color: $second-color-2;
 
         p:hover{
              transform: scale(1.05);
@@ -43,17 +43,22 @@
 
 .loggain{
     background-color: $primary-backgroundColor;
-    min-height: 300vh;
     display: flex;
     justify-content: center;
     padding-top: 8%;
     min-width: 980px;
     position: relative;
 
+    &_loading{
+      padding-left: 50%;
+      padding-top: 20%;
+      background-color: $primary-backgroundColor;
+    }
+
      &_tillbaka{
          position:absolute;
-        top: 3rem;
-        left: 5%;
+        top: 0rem;
+        left: 5rem;
         color: $second-color-3;
      }
 
@@ -65,13 +70,24 @@
 
      &_forsatta{
       position:absolute;
-      top: 3.15rem;
-      left: 70%;
+      top: 0rem;
+      left: 60rem;
+      color: $second-color-3;
+
+      
+     }
+
+     &_logout{
+      position:absolute;
+      top: 2.5rem;
+      left: 68rem;
       color: $second-color-3;
      }
 
     &_link{
-
+      position:absolute;
+      top: 2.5rem;
+      left: 80%;
     text-decoration: none;
     color: $second-color-3;
     } 
@@ -81,6 +97,7 @@
         cursor: pointer;
     }
 
+   
     &_form{
       h4{
         text-align: center;
@@ -148,9 +165,10 @@
 }
 
 .laddaup{
-  background-color: $second-color-2;
+  background-color: $primary-backgroundColor;
   height: 100%;
   min-width: 980px;
+  position: relative;
 
  label{
   display: block;
@@ -202,7 +220,7 @@ transition: background-color 5000s ease-in-out 0s;
   
   &_header{
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     padding-bottom: 2%;
 
     button{
@@ -212,7 +230,7 @@ transition: background-color 5000s ease-in-out 0s;
        border-radius: 10px;
        border: 0;
        font-size: .8rem;
-       margin-right: .7rem;
+       margin-left: 55.5rem;
     }
 
     button:hover{

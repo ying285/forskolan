@@ -4,10 +4,12 @@
     //height: 100vh;
     background-color: $primary-backgroundColor;
     display: flex;
-    justify-content:space-evenly;
+    //justify-content:space-evenly;
     padding: 5%;
 
-
+     &_main{
+      margin-left: 10rem;
+     }
     &_logout{
         
             p{

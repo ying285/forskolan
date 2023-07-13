@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <Navbar />
-      <div>
+      <div className={styles.header_main}>
         <h3 >VÄLKOMMEN TILL SKOGSGLÄNTANS FÖRSKOLA</h3>
         <h3 className={styles.header_h3} >”En trygg och stimulerande värld full av möjligheter”
           </h3>

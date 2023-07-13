@@ -45,7 +45,7 @@ const Dokumenter = () => {
     <div className={styles.dokumenter}>
       <div className={styles.dokumenter_header}>
           <Tillbaka />
-          {session.status==='authenticated'? <div><LogOut /><ForsattaLaddaup /></div> : <Link onClick={handelLoggain} href='/dokumenter/loggain' className={styles.loggain_link}><p>Logga in</p></Link>}
+          {session.status==='authenticated'? <div ><ForsattaLaddaup/> <LogOut /></div> : <Link onClick={handelLoggain} href='/dokumenter/loggain' className={styles.loggain_link}><p>Logga in</p></Link>}
       </div>
       <div className={styles.dokumenter_file}>
       {

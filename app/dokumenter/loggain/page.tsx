@@ -16,7 +16,7 @@ const Loggain = () => {
   const session=useSession()
 
 if(session.status==='loading'){
-    return <p>Loading...</p>
+    return <div className={styles.loggain_loading}><p>Loading...</p></div>
    }
 
    if(session.status==='authenticated'){
@@ -43,7 +43,7 @@ return (
         
 <div className={styles.loggain}>
 <Tillbaka />
-<div>
+<div className={styles.loggain_formLayout}>
    
   <form className={styles.loggain_form} onSubmit={handleSubmit}>
     <h4>Logga in</h4>

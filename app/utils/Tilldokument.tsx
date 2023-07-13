@@ -17,7 +17,7 @@ const handelTillbaka=(e:any) => {
 
   return (
     <div className={styles.loggain_tillbaka}>
-        <Link onClick={handelTillbaka} href='/dokumenter' className={styles.loggain_link}><p>Till dokumenter</p></Link>
+        <Link onClick={handelTillbaka} href='/dokumenter' className={styles.loggain_link}><p>Dokumenter</p></Link>
     </div>
   )
 }

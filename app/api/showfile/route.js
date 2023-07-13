@@ -8,7 +8,7 @@ import File from "../../../models/File";
         await connect();
 
         const files = await File.find();
-      console.log(files)
+      
        return NextResponse.json({files}, { status: 200 });
       } catch (err) {
         console.log(err)
@@ -17,13 +17,9 @@ import File from "../../../models/File";
  }
 
  export const DELETE = async (request) => {
-  //const  {data}  = await request.json();
+  
   const {searchParams}= new URL(request.url);
   const id=searchParams.get('id')
-  
-  console.log('test7')
-  console.log(id)
-
   
   try {
     await connect();
